@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.nav_downloads -> {
                     // implicit intent: open website
-                    val browser = Intent(Intent.ACTION_VIEW, Uri.parse("https://apkpure.com"))
+                    val browser = Intent(Intent.ACTION_VIEW, Uri.parse("https://mob.org/en/android/games"))
                     startActivity(browser)
                 }
                 R.id.nav_settings -> {
